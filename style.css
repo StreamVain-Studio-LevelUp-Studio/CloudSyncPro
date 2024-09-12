@@ -1,0 +1,67 @@
+/* Grundstil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body mit schwarzem Hintergrund */
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px; /* Platz für den fixierten Header */
+}
+
+/* Header mit Blau-Lila-Übergang und festem Layout */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1b1f3b, #4e2a84);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+/* Button-Design */
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+/* Feature-Section */
+#features {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#features ul {
+    list-style-type: none;
+}
+
+#features li {
+    margin: 10px 0;
+}
+
+/* Footer-Design */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
