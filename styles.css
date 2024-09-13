@@ -65,18 +65,3 @@ footer {
     text-align: center;
     width: 100%;
 }
-
-./* Logo-Bereich */
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 100px; /* Stelle sicher, dass die maximale Breite für das Logo festgelegt ist */
-    height: auto;  /* Automatische Höhe basierend auf der Breite */
-}
-
-.logo img {
-    max-width: 100%; /* Bild füllt den verfügbaren Platz vollständig */
-    height: auto;    /* Höhe passt sich automatisch an */
-    display: block;  /* Stellt sicher, dass keine zusätzlichen Abstände oder Margen entstehen */
-}
