@@ -1,0 +1,74 @@
+/* Grundstil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hintergrund */
+body {
+    background: linear-gradient(to right, #1b1f3b, #4e2a84);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header-Design */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Verbundene Dienste */
+#connected-services {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service img {
+    width: 100px;
+    height: auto;
+}
+
+/* Neuer Dienst hinzufügen */
+#add-service {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-btn {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.add-btn:hover {
+    background-color: #333;
+}
+
+#add-service p {
+    font-size: 16px;
+}
+
+/* Footer-Design */
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
