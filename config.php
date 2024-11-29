@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost'; // Dein Hostname, z.B. 'localhost'
 $dbname = 'cloudsync'; // Der Name der Datenbank
-$username = 'root'; // Dein Datenbank-Benutzername
-$password = ''; // Dein Datenbank-Passwort
+$username = 'Admin'; // Dein Datenbank-Benutzername
+$password = 'passwort'; // Dein Datenbank-Passwort
 
 // PDO-Verbindung zur Datenbank
 try {
